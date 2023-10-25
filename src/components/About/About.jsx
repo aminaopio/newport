@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import { RiCss3Fill, RiHtml5Fill, RiJavascriptLine } from 'react-icons/Ri';
 import { BsFileArrowDown } from 'react-icons/bs';
+import { RiCss3Fill, RiHtml5Fill, RiJavascriptLine } from 'react-icons/ri';
 import { SiAmazonaws, SiAmazondynamodb, SiAngularjs, SiFirebase, SiFlutter, SiMysql } from 'react-icons/si';
 import Sidebar from "../../sidebar/Sidebar";
 import "./About.scss";
