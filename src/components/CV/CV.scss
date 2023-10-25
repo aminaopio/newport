@@ -1,0 +1,15 @@
+.CV{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(180deg,#1d0c1c, #32112f);
+    color: black;
+
+    .scrollButton{
+        font-size: 40px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+        color: white;
+    }
+}

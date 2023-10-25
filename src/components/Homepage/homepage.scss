@@ -1,0 +1,56 @@
+.homepage{
+    height: calc(100vh - 100px);
+    background: linear-gradient(180deg,#1d0c1c, #32112f);
+
+    .wrapper{
+        max-width: 1166px;
+        height: 100%;
+        margin: auto;
+
+        .textContainer{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+
+            h2{
+                font-size: 80px;
+                color: pink;
+                letter-spacing: 10px;
+                font-weight: bold;
+            }
+
+            h1{
+                font-size: 30px;
+                color: rebeccapurple;
+                font-weight: bold;
+                letter-spacing: 4px;
+            }
+
+            .type{
+                font-size: 60px;
+            }
+
+            .buttons{
+                button{
+                    padding: 20px;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    background-color: transparent;
+                    color: white;
+                    margin-right: 20px;
+                    cursor: pointer;
+                    font-weight: 300;
+                }
+            }
+
+            .scrollButton{
+                font-size: 40px;
+                align-items: center;
+
+            }
+        }
+    }
+}

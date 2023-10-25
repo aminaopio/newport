@@ -1,0 +1,60 @@
+.about{
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(180deg,#130c1d, #241132);
+    overflow: hidden;
+
+    .wrapper{
+        max-width: 1166px;
+        height: 100%;
+        margin: auto;
+
+        .textContainer{
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+
+            h2{
+                font-size: 60px;
+                color: rebeccapurple;
+                letter-spacing: 10px;
+                font-weight: bold;
+            }
+            h1{
+                font-size: 25px;
+                border: 1px solid white;
+                border-radius: 10px;
+                padding: 20px;
+            }
+            h3{
+                font-size: 30px;
+                color: rgb(254, 213, 219);
+            }
+        }
+
+        .scrollButton{
+            font-size: 40px;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .imageContainer{
+        height: 100%;
+        position: absolute;
+        padding-top: 150px;
+        padding-right: 150px;
+        top: 0;
+        right: 0;
+        
+
+        img{
+            width: 450px;
+            height: 450px;
+        }
+    }
+
+}
